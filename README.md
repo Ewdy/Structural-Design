@@ -1,26 +1,23 @@
-README - Structural Design Calculations - rev 0.0
-=================================================
+### Structural Design Calculations - rev 0.1
+## README.md
 
 This is the top level of several folders containing calculations common to
 structural design. The calculations consist primarily of Jupyter Notebooks.
 There are a few MathCAD worksheets included which require the user to have
 MathCAD software in order to use.
 
-New to CoCalc?
-==============
 
-Checkout Resources below -
+New to CoCalc? Checkout these Resources -
 [Videos](https://github.com/sagemathinc/cocalc/wiki/TalksAndVideos) -
 [Documentation](https://cocalc.com/help?session=default)
 
-Index of Topics
----------------
+## Index of Topics
 
 Clicking on a Topic will take you to an index of files on the topic
 
 -   [Aluminum Design & Code Checks](./Aluminum/README.md)
 
--   Steel Design & Code Checks
+-   [Steel Design & Code Checks](./Steel/README.md)
 
 -   [Wood Design & Code Checks](./Wood/README.md)
 
@@ -34,7 +31,7 @@ Clicking on a Topic will take you to an index of files on the topic
 
 -   Snow Load Calculations
 
--   Wind Load Calculations
+-   [Wind Load Calculations](./Wind/README.md)
 
 -   Misc Reference Material
 
@@ -82,4 +79,4 @@ ToDo / Issues:
 Revision History
 ----------------
 
-Revision 0.0 (unreleased)
+Revision 0.1 (unreleased)
