@@ -1,4 +1,6 @@
-### Structural Design Calculations - Wood - Wood Connections
+### Structural Design Calculations
+### Wood
+## Wood Connections
 This is the Wood-Wood Connections sublevel of several folders containing calculations common to structural design. The calculations consist primarily of Jupyter Notebooks. There are a few MathCAD worksheets included which require the user to have MathCAD software in order to use.
 
 ## Index of Topics
