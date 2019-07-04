@@ -1,4 +1,4 @@
-### Structural Design Calculations - rev 0.1
+### Structural Design Calculations - rev 0.2
 ## README.md
 
 This is the top level of several folders containing calculations common to

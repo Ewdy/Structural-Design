@@ -1,0 +1,193 @@
+]0;~/Docs[01;34m~/Docs[00m$ sphinx-quickstart
+[01mWelcome to the Sphinx 1.8.5 quickstart utility.[39;49;00m
+
+Please enter values for the following settings (just press Enter to
+accept a default value, if one is given in brackets).
+[01m
+Selected root path: .[39;49;00m
+
+You have two options for placing the build directory for Sphinx output.
+Either, you use a directory "_build" within the root path, or you separate
+"source" and "build" directories within the root path.
+[35m> Separate source and build directories (y/n) [n]: [39;49;00my
+
+Inside the root directory, two more directories will be created; "_templates"
+for custom HTML templates and "_static" for custom stylesheets and other static
+files. You can enter another prefix (such as ".") to replace the underscore.
+[35m> Name prefix for templates and static dir [_]: [39;49;00m
+
+The project name will occur in several places in the built documentation.
+[35m> Project name: [39;49;00mStructural Design Calculations
+[35m> Author name(s): [39;49;00mEric Durham
+[35m> Project release []: [39;49;00m0.0
+
+If the documents are to be written in a language other than English,
+you can select a language here by its language code. Sphinx will then
+translate text that it generates into that language.
+
+For a list of supported codes, see
+http://sphinx-doc.org/config.html#confval-language.
+[35m> Project language [en]: [39;49;00m
+
+The file name suffix for source files. Commonly, this is either ".txt"
+or ".rst".  Only files with this suffix are considered documents.
+[35m> Source file suffix [.rst]: [39;49;00m
+
+One document is special in that it is considered the top node of the
+"contents tree", that is, it is the root of the hierarchical structure
+of the documents. Normally, this is "index", but if your "index"
+document is a custom template, you can also set this to another filename.
+[35m> Name of your master document (without suffix) [index]: [39;49;00m
+Indicate which of the following Sphinx extensions should be enabled:
+[35m> autodoc: automatically insert docstrings from modules (y/n) [n]: [39;49;00my
+[35m> doctest: automatically test code snippets in doctest blocks (y/n) [n]: [39;49;00my
+[35m> intersphinx: link between Sphinx documentation of different projects (y/n) [n]: [39;49;00my
+[35m> todo: write "todo" entries that can be shown or hidden on build (y/n) [n]: [39;49;00my
+[35m> coverage: checks for documentation coverage (y/n) [n]: [39;49;00my
+[35m> imgmath: include math, rendered as PNG or SVG images (y/n) [n]: [39;49;00my
+[35m> mathjax: include math, rendered in the browser by MathJax (y/n) [n]: [39;49;00my
+[35m> ifconfig: conditional inclusion of content based on config values (y/n) [n]: [39;49;00my
+[35m> viewcode: include links to the source code of documented Python objects (y/n) [n]: [39;49;00my
+[35m> githubpages: create .nojekyll file to publish the document on GitHub pages (y/n) [n]: [39;49;00my
+Note: imgmath and mathjax cannot be enabled at the same time. imgmath has been deselected.
+
+A Makefile and a Windows command file can be generated for you so that you
+only have to run e.g. `make html' instead of invoking sphinx-build
+directly.
+[35m> Create Makefile? (y/n) [y]: [39;49;00my
+[35m> Create Windows command file? (y/n) [y]: [39;49;00my
+
+Creating file ./source/conf.py.
+Creating file ./source/index.rst.
+Creating file ./Makefile.
+Creating file ./make.bat.
+
+[01mFinished: An initial directory structure has been created.[39;49;00m
+
+You should now populate your master file ./source/index.rst and create other documentation
+source files. Use the Makefile to build the docs, like so:
+   make builder
+where "builder" is one of the supported builders, e.g. html, latex or linkcheck.
+
+]0;~/Docs[01;34m~/Docs[00m$ make html
+[01mRunning Sphinx v1.8.5[39;49;00m
+making output directory...
+loading intersphinx inventory from https://docs.python.org/objects.inv...
+intersphinx inventory has moved: https://docs.python.org/objects.inv -> https://docs.python.org/3/objects.inv
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html][39;49;00m: targets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mindex[39;49;00m                                                                                                                                                                                                                                                
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00mdone
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mindex[39;49;00m                                                                                                                                                                                                                                                 
+[01mgenerating indices...[39;49;00m genindex
+[01mwriting additional pages...[39;49;00m search
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en) ... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in build/html.
+]0;~/Docs[01;34m~/Docs[00m$ ls
+Makefile  [0m[01;34mbuild[0m  make.bat  [01;34msource[0m  sphinx.term
+]0;~/Docs[01;34m~/Docs[00m$ cd build
+]0;~/Docs/build[01;34m~/Docs/build[00m$ dir
+[0m[01;34mdoctrees[0m  [01;34mhtml[0m
+]0;~/Docs/build[01;34m~/Docs/build[00m$ cd html
+]0;~/Docs/build/html[01;34m~/Docs/build/html[00m$ dir
+[0m[01;34m_sources[0m  [01;34m_static[0m  genindex.html  index.html  objects.inv  search.html  searchindex.js
+]0;~/Docs/build/html[01;34m~/Docs/build/html[00m$ index.html
+bash: /ext/data/weblogo/index.html: Permission denied
+]0;~/Docs/build/html[01;34m~/Docs/build/html[00m$ cd ..
+]0;~/Docs/build[01;34m~/Docs/build[00m$ cd ..
+]0;~/Docs[01;34m~/Docs[00m$ make html
+[01mRunning Sphinx v1.8.5[39;49;00m
+[01mloading pickled environment... [39;49;00mdone
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html][39;49;00m: targets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m[] 1 added, 1 changed, 0 removed
+[01mreading sources... [39;49;00m[ 50%] [35mindex[39;49;00m                                                                                                                                                                                                                                                [01mreading sources... [39;49;00m[100%] [35mtestTopic/trialTopic1[39;49;00m                                                                                                                                                                                                                                
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00mdone
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[ 50%] [32mindex[39;49;00m                                                                                                                                                                                                                                                 [01mwriting output... [39;49;00m[100%] [32mtestTopic/trialTopic1[39;49;00m                                                                                                                                                                                                                                 
+[01mgenerating indices...[39;49;00m genindex
+[01mwriting additional pages...[39;49;00m search
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en) ... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in build/html.
+]0;~/Docs[01;34m~/Docs[00m$ make html
+[01mRunning Sphinx v1.8.5[39;49;00m
+[01mloading pickled environment... [39;49;00mdone
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html][39;49;00m: targets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m[] 1 added, 1 changed, 0 removed
+[01mreading sources... [39;49;00m[ 50%] [35mindex[39;49;00m                                                                                                                                                                                                                                                [01mreading sources... [39;49;00m[100%] [35mintroduction/Introduction[39;49;00m                                                                                                                                                                                                                            
+[31;01m/home/user/Docs/source/introduction/Introduction.rst:5: WARNING: duplicate label getting_started, other instance in /home/user/Docs/source/testTopic/trialTopic1.rst[39;49;00m
+[31;01m/home/user/Docs/source/introduction/Introduction.rst:10: WARNING: duplicate label installing-docdir, other instance in /home/user/Docs/source/testTopic/trialTopic1.rst[39;49;00m
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00mdone
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[ 50%] [32mindex[39;49;00m                                                                                                                                                                                                                                                 [01mwriting output... [39;49;00m[100%] [32mintroduction/Introduction[39;49;00m                                                                                                                                                                                                                             
+[01mgenerating indices...[39;49;00m genindex
+[01mwriting additional pages...[39;49;00m search
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en) ... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded, 2 warnings.[39;49;00m
+
+The HTML pages are in build/html.
+]0;~/Docs[01;34m~/Docs[00m$ make html
+[01mRunning Sphinx v1.8.5[39;49;00m
+[01mloading pickled environment... [39;49;00mdone
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html][39;49;00m: targets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m[] 0 added, 1 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mintroduction/Introduction[39;49;00m                                                                                                                                                                                                                            
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00mdone
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[ 50%] [32mindex[39;49;00m                                                                                                                                                                                                                                                 [01mwriting output... [39;49;00m[100%] [32mintroduction/Introduction[39;49;00m                                                                                                                                                                                                                             
+[01mgenerating indices...[39;49;00m genindex
+[01mwriting additional pages...[39;49;00m search
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en) ... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in build/html.
+]0;~/Docs[01;34m~/Docs[00m$ make html
+[01mRunning Sphinx v1.8.5[39;49;00m
+[01mloading pickled environment... [39;49;00mdone
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html][39;49;00m: targets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m[] 0 added, 1 changed, 1 removed
+[01mreading sources... [39;49;00m[100%] [35mindex[39;49;00m                                                                                                                                                                                                                                                
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00mdone
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mindex[39;49;00m                                                                                                                                                                                                                                                 
+[01mgenerating indices...[39;49;00m genindex
+[01mwriting additional pages...[39;49;00m search
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en) ... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in build/html.
+]0;~/Docs[01;34m~/Docs[00m$ 

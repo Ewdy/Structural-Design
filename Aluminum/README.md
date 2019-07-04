@@ -10,6 +10,7 @@ Clicking on a Topic will open the respective file
 | Item | Code | Clause | Format | Alloy | Shape | Tag_5 | Tag_6 | Tag_7 | Tag_8 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | [Tube Beam-Column](./Aluminum_Tube_Beam_Column_Calcs.ipynb) | CSA S157-05(R2015) | 9.7.4 | Jupyter | 6061-T6 Ext | Tube | Beam-Column | - | - | - |
+| [ALJ Beam Check](./ALJ/Scaffold_Depot_ALJ/ALJ_Calcs_2.ipynb) | n/a | n/a | Jupyter | 6061-T6 Ext | ALJ | Bending | Deflection | Scaffold Depot | Shear |
 | [ALJ Max Point Load](./ALJ/Scaffold_Depot_ALJ/ALJ_Calcs.ipynb) | n/a | n/a | Jupyter | 6061-T6 Ext | ALJ | Bending | Deflection | Scaffold Depot | - |
 | [Scaffold Depot ALJ](./ALJ/Scaffold_Depot_ALJ/Scaffold_Depot_ALJ_Datasheet.pdf) | n/a | n/a | PDF | 6061-T6 Ext | ALJ | Bending | Shear | Scaffold Depot | Datasheet |
 | [RT 3x2x0.25_1](./RT_3x2x0.25/Member_3_Tensile_Resistance.ipynb) | CSA S157-05(R2015) | 9.2 | Jupyter | 6061-T6 Ext | Tube | Tension | - | - | - |
