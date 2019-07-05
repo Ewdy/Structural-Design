@@ -1,4 +1,4 @@
-### Structural Design Calculations - rev 0.2
+### Structural Design Calculations - rev 0.3
 ## README.md
 
 This is the top level of several folders containing calculations common to
@@ -7,9 +7,11 @@ There are a few MathCAD worksheets included which require the user to have
 MathCAD software in order to use.
 
 
-New to CoCalc? Checkout these Resources -
+New to [CoCalc](https://cocalc.com)? Checkout these Resources -
 [Videos](https://github.com/sagemathinc/cocalc/wiki/TalksAndVideos) -
-[Documentation](https://cocalc.com/help?session=default)
+[Documentation](https://cocalc.com/help?session=default) - [Help](https://cocalc.com/help?session=default)
+
+New to [Jupyter](https://jupyter.org)? See [Introduction](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.html#Introduction) &  [Documentation](https://jupyter-notebook.readthedocs.io/en/stable/)
 
 ## Index of Topics
 
@@ -55,4 +57,4 @@ ToDo / Issues:
 Revision History
 ----------------
 
-Revision 0.2 (unreleased)
+Revision 0.3 (unreleased)
