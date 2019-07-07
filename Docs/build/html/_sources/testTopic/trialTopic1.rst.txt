@@ -1,0 +1,17 @@
+.. _getting_started:
+
+============
+trialTopic1!
+============
+
+.. _installing-docdir:
+
+This is The Title of This Topic
+===============================
+
+This is an attempt at making my first topic using `Sphinx <http://sphinx-doc.org/>` _installed  and reStructuredText. I am not sure what to make of it yet. It seems it will be easy once I understand the scheme.
+
+This is The Title of a Subtopic
+-------------------------------
+
+Here one would add some text extending or explaining the main topic. Easy so far.
