@@ -17,6 +17,7 @@ End Comment --->
 | :--- | :--- |
 | [Circle_1](./Circle_with_Axis_in_middle/Circle_0.0.ipynb) | Circle with Axis in the Middle |
 | [Hollow_Circle_1](./Hollow_Circle/Hollow_Circle.ipynb) | Annulus or Hollow Circle with Axis in the Middle |
+| [Hollow Square_1](./Hollow_Square/Hollow_Square.ipynb) |Hollow Square with Neutral Axis in middle |
 | [Hollow Rectangle_1](./Hollow_Rectangle/Hollow_Rectangle.ipynb) | Hollow Rectangle with Axis in the middle using Sympy |
 | [Rectangle_1](./Rectangle_with_Axis_in_Middle/Rectangle_0.4.ipynb) | Rectangle with Axis in the Middle |
 <!--- End Table --->
