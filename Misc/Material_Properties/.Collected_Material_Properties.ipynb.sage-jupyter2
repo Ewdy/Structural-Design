@@ -1,0 +1,13 @@
+{"backend_state":"running","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":80543744},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.7.2"}},"trust":true,"type":"settings"}
+{"cell_type":"code","exec_count":1,"id":"b4db52","input":"from pint import UnitRegistry\nunit = UnitRegistry()\n# Define symbols for common units\nm = unit.meter; mm = unit.millimeter; inch = unit.inch;\nkN = unit.kilonewton; MPa = unit.megapascal; psi = unit.psi","pos":1,"type":"cell"}
+{"cell_type":"code","exec_count":2,"id":"1e47e1","input":"# Mechanical Specifications for Class 12.9 per ISO 898-1\nF_u = 1220*MPa # minimum Tensile Strength\nF_y = 1100*MPa # minimum Yield Strength","pos":6,"type":"cell"}
+{"cell_type":"code","exec_count":3,"id":"dc8f1b","input":"# Material Properties of 6061-T6 Extruded Aluminum from Table 2 of S157-05\nF_u = 260*MPa # Ultimate Strength of Base Metal from Table 2 of S157-05 (R2015)\n# F_u = 262*MPa # Ultimate Strength of Base Metal from ADM2015\nF_y = 240*MPa # Yield Strength of Base Metal\nF_wy = 110*MPa # Yield Strength of welded heat-affected-zone\nE = 70000*MPa # Elastic Modulus from S157-05 4.3(b)","pos":8,"type":"cell"}
+{"cell_type":"code","id":"3902b2","input":"# Mechanical Specifications for Class 10.9 per ISO 898-1\nF_u = 1040*MPa # minimum Tensile Strength\nF_y = 940*MPa # minimum Yield Strength","pos":5,"type":"cell"}
+{"cell_type":"code","id":"465556","input":"# Mechanical Specifications for SAE J429 Grade 8\nF_u = 150000*psi # minimum Tensile Strength\nF_y = 130000*psi # minimum Yield Strength","pos":4,"type":"cell"}
+{"cell_type":"code","id":"594a98","input":"","pos":9,"type":"cell"}
+{"cell_type":"markdown","id":"0ae31b","input":"Aluminum\n========","pos":7,"type":"cell"}
+{"cell_type":"markdown","id":"1a50bc","input":"A Collection of Frequently used Material Properties with citation of sources","pos":0,"type":"cell"}
+{"cell_type":"markdown","id":"1c6bab","input":"Steel\n=====","pos":2,"type":"cell"}
+{"cell_type":"markdown","id":"8f9adc","input":"Fasteners\n---------","pos":3,"type":"cell"}
+{"id":0,"time":1562578598935,"type":"user"}
+{"last_load":1562577660290,"type":"file"}

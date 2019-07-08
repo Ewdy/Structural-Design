@@ -26,7 +26,7 @@ Clicking on a Topic will take you to an index of files on the topic
 -   Stress & Strain Calculations from Roark's 7th Edition
 -   Snow Load Calculations
 -   [Wind Load Calculations](./Wind/README.md)
--   Misc Reference Material
+-   [Misc Reference Material](./Misc/README.md)
 
 Usage and Licensing
 -------------------
