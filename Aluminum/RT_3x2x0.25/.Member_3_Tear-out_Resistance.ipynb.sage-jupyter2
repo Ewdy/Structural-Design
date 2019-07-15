@@ -1,4 +1,4 @@
-{"backend_state":"ready","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":81383424},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.7.2"}},"trust":true,"type":"settings"}
+{"backend_state":"ready","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":80916480},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.8"}},"trust":true,"type":"settings"}
 {"cell_type":"code","exec_count":1,"id":"22884b","input":"from pint import UnitRegistry\nunit = UnitRegistry()\n# Define symbols for common units\nm = unit.meter; mm = unit.millimeter; inch = unit.inch;\nkN = unit.kilonewton; MPa = unit.megapascal; psi = unit.psi","pos":2,"state":"done","type":"cell"}
 {"cell_type":"code","exec_count":11,"id":"a93b39","input":"R_ba = phi_u*((m-1)*(g-d_o)+(n-1)*(s-d_o)+e)*t*F_u\nR_ba.ito(kN)\nR_bb = phi_u*2*N*d*t*F_u\nR_bb.ito(kN)\nR_b = min(R_ba, R_bb)\nprint('Tear-out Resistance is: ', R_b)","output":{"0":{"name":"stdout","output_type":"stream","text":"Tear-out Resistance is:  39.314437500000004 kilonewton\n"}},"pos":9,"state":"done","type":"cell"}
 {"cell_type":"code","exec_count":12,"id":"d37253","input":"2*R_b","output":{"0":{"data":{"text/html":"78.62887500000001 kilonewton","text/latex":"$78.62887500000001\\ \\mathrm{kilonewton}$","text/plain":"78.62887500000001 <Unit('kilonewton')>"},"exec_count":12,"output_type":"execute_result"}},"pos":11,"state":"done","type":"cell"}
@@ -12,5 +12,4 @@
 {"cell_type":"markdown","id":"a17e65","input":"Case: Determine CSA S157-05 (R2015) 11.2.5.1 Tear-out of bolt and rivet groups (block shear) for M20 Bolts in RT3x2x0.25 6061-T6 Extruded Aluminum Tube. This is tension member in 1.5m Wall Bracket in Modified Case 2 configuration.","pos":1,"state":"done","type":"cell"}
 {"cell_type":"markdown","id":"b777a4","input":"The tube has 2 sides or walls. Therefore, the bearing resistance of the Member is:","pos":6,"state":"done","type":"cell"}
 {"cell_type":"markdown","id":"bba046","input":"Member 3 Tear-out Resistance - E.Durham - 10-Jun-2019","pos":0,"state":"done","type":"cell"}
-{"id":0,"time":1561993492995,"type":"user"}
-{"last_load":1561993487950,"type":"file"}
+{"last_load":1563188594576,"type":"file"}

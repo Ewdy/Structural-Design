@@ -1,4 +1,4 @@
-{"backend_state":"ready","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":80896000},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.8"}},"trust":true,"type":"settings"}
+{"backend_state":"ready","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":81358848},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.8"}},"trust":true,"type":"settings"}
 {"cell_type":"code","exec_count":1,"id":"06563b","input":"import pint, math\nimport numpy as np\nfrom scipy import interpolate\nunit = pint.UnitRegistry(system='mks')","pos":4,"state":"done","type":"cell"}
 {"cell_type":"code","exec_count":10,"id":"26ccff","input":"# Estimate P_cr using Equ 2-48\nP_cr = (m*E*I_2)/(l**2)\nP_cr.ito(kN)\nprint('P_cr is estimated as:', round(P_cr,2))","output":{"0":{"name":"stdout","output_type":"stream","text":"P_cr is estimated as: 68.27 kilonewton\n"}},"pos":14,"state":"done","type":"cell"}
 {"cell_type":"code","exec_count":11,"id":"6ef461","input":"# Derive sigma_cr\nsigma_cr = P_cr / A_2\nsigma_cr.ito(MPa)\nprint('sigma_cr is estimated as:', round(sigma_cr,1))","output":{"0":{"name":"stdout","output_type":"stream","text":"sigma_cr is estimated as: 65.8 megapascal\n"}},"pos":15,"state":"done","type":"cell"}
@@ -19,5 +19,5 @@
 {"cell_type":"markdown","id":"8fecec","input":"Stair Tower Built-up Tie Calcs  \nE. Durham  4-Aug-2018","pos":0,"state":"done","type":"cell"}
 {"cell_type":"markdown","id":"b2d25a","input":"From the table above, we see that our ratios for $ \\frac{I_1}{I_2} $ and $ \\frac{a}{l} $ fall between tabulated rows and columns.\n\nGiven $ \\frac{I_1}{I_2} = 0.33 $ and $ \\frac{a}{l} = 0.5 $ we see $ m $ is some value between 4.22 and 8.51\n\nFind $ m $ using 2d splines and the scipy.interpolate library","pos":12,"state":"done","type":"cell"}
 {"cell_type":"markdown","id":"cb70cc","input":"The above value matches the values published in Handbook of Steel Construction, 11th Edition, page 4-100 and would be the correct if the column were composed entirely of HSS 64x6.4. Given our case of build up or segmented columns, compressive resistance is computed to be:","pos":18,"state":"done","type":"cell"}
-{"id":0,"time":1562003665529,"type":"user"}
-{"last_load":1562003251994,"type":"file"}
+{"id":0,"time":1563188288132,"type":"user"}
+{"last_load":1563188288359,"type":"file"}
