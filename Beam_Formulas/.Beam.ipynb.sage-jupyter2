@@ -1,0 +1,8 @@
+{"backend_state":"ready","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":81879040},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.7.2"}},"trust":true,"type":"settings"}
+{"cell_type":"code","end":1563223613442,"exec_count":1,"id":"43a9eb","input":"# Develop notebook for beam bending","kernel":"python3","no_halt":true,"pos":0,"start":1563223613439,"state":"done","type":"cell"}
+{"cell_type":"code","end":1563223613493,"exec_count":2,"id":"bfa1aa","input":"# Imports","kernel":"python3","no_halt":true,"pos":1,"start":1563223613450,"state":"done","type":"cell"}
+{"cell_type":"code","end":1563223613585,"exec_count":3,"id":"e097c8","input":"# setup array to hold shear values\n# setup arroy to hold bending moment values\n# setup array to hold deflection values","kernel":"python3","no_halt":true,"pos":2,"start":1563223613566,"state":"done","type":"cell"}
+{"cell_type":"code","end":1563223613664,"exec_count":4,"id":"18e4a1","input":"# take input from user\n#    span\n#    Ask if user wants to enter beam for deflection calculations\n#        If yes, take input from user\n#            Elastic Modulus of Material\n#            Second Moment of Inertia","kernel":"python3","no_halt":true,"pos":3,"start":1563223613599,"state":"done","type":"cell"}
+{"cell_type":"code","end":1563223613688,"exec_count":5,"id":"cdb35c","input":"# ask user type of first load\n# ask user for point of application\n","kernel":"python3","no_halt":true,"pos":4,"start":1563223613679,"state":"done","type":"cell"}
+{"id":0,"time":1563223564192,"type":"user"}
+{"last_load":1563223564030,"type":"file"}
