@@ -20,7 +20,7 @@ Clicking on a Topic will take you to an index of files on the topic
 -   [Aluminum Design & Code Checks](./Aluminum/README.md)
 -   [Steel Design & Code Checks](./Steel/README.md)
 -   [Wood Design & Code Checks](./Wood/README.md)
--   Beam Formulas  
+-   [Beam Formulas](./Beam_Formulas/README.md)  
 -   [Properties of Geometric
     Sections](./Properties_of_Geometric_Sections/README.md)
 -   Stress & Strain Calculations from Roark's 7th Edition
