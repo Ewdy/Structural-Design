@@ -12,7 +12,7 @@ Note: Beam items are notebooks deriving and plotting shear, moment and deflectio
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | [Bending Stiffness](./Bending_Stiffness.ipynb) | n/a | n/a | Jupyter | - | - | - | - | - | - |
 | [Simple Beam - Concentrated Load at Any Point](./Beam_1.1.ipynb) | n/a | n/a | Jupyter | - | Shear | Moment | Deflection | - | - |
-
+| [Simple Beam - Partially distributed uniform load](./Beam_2.ipynb) | n/a | n/a | Jupyter | - | Shear | Moment | - | - | - |
 
 [Return to Main Index](../README.md)
 
